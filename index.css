@@ -6,4 +6,43 @@
 body 
 {
     color: brown;
+    font-family: sans-serif;
+}
+header {
+    background-color: #0769e9;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+}
+.nav-menu {
+    display: flex;
+    list-style: none;
+    padding-right: 30px;
+    
+    
+}
+
+.nav-menu-link{
+    display: flex;
+    font-size: 26px;
+    color: beige;
+    padding: 8px 24px;
+    text-decoration: none;
+    font-family: 'Indie Flower', cursive;
+}
+.logo{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 28px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    color: white;
+    padding: 2px 16px;
+    padding-left: 20px;
 }
